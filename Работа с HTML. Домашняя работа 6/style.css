@@ -1,0 +1,66 @@
+.plane{
+    height: auto;
+    width: 60%;
+    border-top: 2px solid lightgreen;
+    border-bottom: 2px solid lightgreen;    
+    text-align:center;
+    overflow: auto;
+}
+
+.left-plate{
+    width: 50%; 
+    float:left;
+}
+
+.right-plate{
+    float: right;
+    width:50%;
+}
+
+.right-text{
+    float:left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.news-plane{
+    width: 60%;
+}
+
+
+.news-item{
+    float:right;
+    width:15%;
+    text-align: center;
+}
+
+
+.picture-text{
+    width: 40%;
+    float:left;
+    margin-block: 0px;
+}
+
+
+.cougar-car{
+    width: 100%;
+    height:500px;
+}
+
+.articles-plane{
+    margin-left: 15px;
+    padding-top:0;
+    padding-left:40%;
+    width: 20%;
+}
+
+
+.article-item{
+    font-size: 12px;
+}
+
+.button-style{
+    background-color: green;
+    color:white;
+    border:1px solid green;
+}
