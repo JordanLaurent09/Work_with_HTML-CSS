@@ -1,0 +1,63 @@
+.body-class{
+    background-color:cornflowerblue;    /*данный класс, применяемый ко всей веб-странице, определяет цвет фона*/
+}
+
+.main-header{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;        /*текущий класс оформляет заголовок, определяя его ориентацию, особенности шрифта и прозрачность*/
+    font-weight: 300;
+    font-style: italic;
+    color:pink;
+    opacity: 0.75;
+    
+}
+
+.button-style1{
+    margin-left:45%;
+    margin-right: 40%;
+    height: 50px;
+    width:200px;
+    border-radius: 5px; 
+    border-top: 5px solid blue;         /*Этот стиль применяется для первой кнопки, он конфигурирует ее форму и вид ее границ*/
+    border-left: 10px solid pink;
+    border-right: 10px solid violet;
+    background-color: crimson;
+    color:aliceblue;
+    font-family: fantasy;
+}
+
+.button-style2{
+    margin-left:45%;
+    margin-right: 40%;
+    height: 50px;
+    width:200px;
+    border-radius: 5px; 
+    border-top: 5px solid blue;         /*Этот стиль применяется для второй кнопки, он конфигурирует ее форму и вид ее границ*/
+    border-left: 10px solid pink;
+    border-right: 10px solid crimson;
+    background-color: violet;
+    color:crimson;
+    font-family: fantasy;
+}
+
+.text-style{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color:blueviolet;
+    border: 3px outset pink;         /* этот класс определяет внешний вид параграфа, определяя особенности шрифта, а также работая с границей*/
+    border-left: 40%;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+
+.image-props{
+    margin-left: 40%;          /*данный стиль используется для оформления изображения*/
+    margin-right: 40%;
+    border: 3px solid pink;
+}
