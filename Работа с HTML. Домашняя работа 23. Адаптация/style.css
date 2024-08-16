@@ -1,0 +1,427 @@
+body{
+    background-image:url(main-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+
+
+.header{
+    
+    margin-bottom: 30px;
+
+
+    display:flex;
+
+    justify-content: space-between;
+}
+
+.header__logo-pic{
+    width:25%;
+    max-width: 100px;
+    padding: 20px 0px 10px 20px;
+
+}
+
+.header__logo-fruit{
+    
+    width:100%;
+
+}
+
+.header__navigation{
+    width: 70%;
+
+}
+
+
+.header__references{
+
+
+    padding-top: 30px;
+    padding-right: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__reference{
+
+    padding: 10px 0;
+
+    font-size: calc(14px + 4 * (100vw / 1280));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.main__plane{
+
+    width: 90%;
+
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.main__giant-picture{
+    width: 40%;
+}
+
+.main__picture-plate{
+    width: 50vw;
+}
+
+
+.main__text{
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main__text-header{
+    text-align: center;
+}
+
+.main__text-block{
+
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    text-align: center;
+}
+
+.main__button-info{
+
+    height: 50px;
+    width: 15vw;
+
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    background-color:#F74D5E;
+    color: white;
+
+    font-size: calc(14px + 4 * (100vw / 1280));
+
+    border: 0;
+
+}
+
+.main__products-container{
+
+    width: 100%;
+
+    
+    margin-bottom: 350px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main__product-table-1 {
+
+    width: 20%;
+    min-width: 200px;
+
+    background-color: #E89892;
+    color:white;
+
+    border-radius: 10px; 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.main__product-description{
+    text-align: center;
+}
+.main__product-table-2 {
+   
+    width: 20%;
+    min-width: 200px;
+
+    background-color: #A9B352;
+    color:white;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__product-table-3 { 
+   
+    width: 20%;
+    min-width: 200px;
+    
+    background-color: #A5C3B9;
+    color:white;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__product-table-4 {
+    
+    width: 20%;
+    min-width: 200px;
+
+    background-color: #E6C265;
+    color:white;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ananas, .granat, .grapefruit, .mango{
+    width: 168px;
+}
+
+.main__intermission{
+
+    margin-bottom: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+    
+}
+
+.main__intermission-header{
+    color:#7EA6E6;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main__intermission-description{
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color:#F5BEA3;
+}
+
+.main__menu-center{
+
+    margin-bottom: 200px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main__berry-out {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width:850px;
+
+    background-color: #F3E5DC;
+
+    border-radius: 10px;
+
+}
+.main__left-to-right {
+    margin:15px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border:2px dashed #97CC51;
+    border-radius: 10px;
+}
+
+.main__cherry-berry-info{
+
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color:gray;
+}
+
+.main__berry-weight{
+    font-weight:400;
+}
+
+.berry-right{
+    width: 155px;
+    margin-right: 20px;
+}
+
+.berry-left{
+    width: 155px;
+    margin-left: 20px;
+}
+
+
+.granade{
+    width: 350px;
+
+    position:absolute;
+    top:2000px;
+}
+
+
+.main__picture-right{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mint{
+    width:250px;
+
+    position: absolute;
+    right: 8px;
+    top:2050px;
+}
+
+.berry-plate{
+    width: 350px;
+
+    position: absolute;
+    right: 0px;
+    top:2850px;
+}
+
+.main__products-info-total{
+    width:100%;
+    
+
+    margin: 0 auto;
+    margin-bottom: 40px;
+    
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main__product-card{
+    width: 25%;
+   
+
+    min-width:250px;
+    
+    margin-bottom: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+    border: 2px solid #97CC51;
+    border-radius: 10px;
+
+    background-color: white;
+    color:gray;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+.main__product-card-header{
+    
+    width: 90%;
+
+    margin: 0 auto;
+    padding-top: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.main__product-card-text{
+
+    width:90%;
+
+    margin: 0 auto;
+
+}
+
+
+.main__header-product{
+    margin-bottom: 0;
+
+    font-size: 20px;
+}
+
+.main__product-icon-wrapper{
+    width:20%;
+
+    padding-top: 10px;
+}
+
+.icon-image{
+    width: 60%;
+}
+
+
+.main__button-container{
+    padding-bottom: 10px;
+    padding-left:20px;
+    
+}
+
+
+.main__card-button{
+    width: 70%;
+    
+    height: 30px;
+
+    border:0;
+    border-radius: 10px;
+
+    background-color: #97CC51;
+    color:white;
+}
+
+.footer__contacts{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:gray;
+}
+
