@@ -1,0 +1,102 @@
+.main-container{
+    width: 500px;
+    height: 500px;
+
+
+    z-index: 2;
+
+
+    background-color: blanchedalmond;
+}
+
+
+.child-container-1{
+
+    width: 100px;
+    height:100px;
+
+
+    position:relative;
+
+    z-index: 2;
+
+    background-color: violet;
+}
+
+.child-container-2{
+    width: 100px;
+    height:100px;
+
+
+    position:relative;
+
+    left:400px;
+    bottom:100px;
+
+    z-index: 2;
+    
+    background-color: white;
+}
+
+.child-container-3{
+    width: 100px;
+    height:100px;
+
+
+    position:relative;
+
+    z-index: 2;
+
+    top:200px;
+    
+
+    background-color:darkgreen;
+}
+
+.child-container-4{
+    width: 100px;
+    height:100px;
+
+
+    position:relative;
+
+    z-index: 2;
+
+    left:400px;
+    top: 100px;
+
+    background-color:darkslateblue;
+}
+
+.child-container-5{
+    width: 100px;
+    height:100px;
+
+
+    position:relative;
+
+    z-index: 2;
+
+    left:200px;
+    bottom:200px;
+
+    background-color: crimson;
+    
+}
+
+.child-container-6{
+    width: 100px;
+    height:100px;
+
+
+    position:sticky;
+
+    left:207px;
+    bottom:855px;
+
+    z-index: 3;
+
+    background-color: deeppink;
+    
+}
+
