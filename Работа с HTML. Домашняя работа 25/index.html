@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Add task Form</title>
+</head>
+<body>
+    
+    <form class="form__task-form">
+        <fieldset class="form__container">
+            <legend>Регистрация задачи</legend>
+
+            <label for="task-name">Название задачи:</label>
+            <input type="text" id="task-name" name="task-name">
+
+            <label for="date-time">Дата и время добавления задачи:</label>
+            <input type="datetime-local" id="date-time" name="date-time">
+
+            <label for="priority">Укажите приоритет задачи</label>
+            <select name="priority" id="priority">
+                <option value="high">HIGH</option>
+                <option value="medium">MEDIUM</option>
+                <option value="low">LOW</option>
+            </select>
+
+            <label for="description">Подробное описание задачи:</label>
+            <textarea name="description" id="description" rows="4" cols="50"></textarea>
+
+            <br>
+            <button class="form__button" type="submit">Добавить задачу</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

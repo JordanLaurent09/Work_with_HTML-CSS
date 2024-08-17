@@ -1,0 +1,72 @@
+.form__task-form{
+    width: 20vw;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    color: rgb(109, 109, 109);
+    
+}
+
+
+.form__container{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(228, 228, 9);
+
+
+    box-shadow: 2px 2px 6px gray;
+
+    border-radius: 5px;
+    
+}
+
+
+input{
+    margin-bottom: 10px;
+}
+
+
+input[id="task-name"]{
+    width: 60%;
+
+    background-color: rgb(124, 124, 118);
+    color: yellow;
+}
+
+input[id="date-time"]{
+    width: 40%;
+
+    background-color: rgb(124, 124, 118);
+    color: yellow;
+}
+
+select[id="priority"]{
+    width: 20%;
+
+    margin-bottom: 10px;
+
+    background-color: rgb(124, 124, 118);
+    color: yellow;
+}
+
+textarea[id="description"]{
+
+    background-color: rgb(124, 124, 118);
+    color: yellow;
+
+    border-radius: 5px;
+}
+
+.form__button{
+    width: 40%;
+
+    background-color: yellow;
+    color: gray;
+    
+    border: 2px solid gray;
+
+    border-radius: 15px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
