@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact me</title>
+</head>
+<body>
+    <header class="header">
+        <h2 class="header__title">Мои контакты</h2>
+        <nav class="navigation">
+           <a href="/index.html"><span class="header__back">НА ГЛАВНУЮ</span></a> 
+        </nav>
+    </header>
+
+    <main>
+        <section class="main__about-me">
+            <a class="header__link-back" href="/index.html"><span class="header__back">НА ГЛАВНУЮ</span></a>
+            <div class="main__about-me-header">
+                <h2 class="main__about-me-network">Найдите меня в соцсетях:</h2>
+            </div>
+            <div class="main__about-me-contacts">
+                <div class="main__about-me-contact">
+                    <img src="images/instagram.png" alt="instagram-icon">
+                    <a href="https:\\instagram.com"><h3 class="main__about-me-contact-info">Я в Инстаграме</h3></a>
+                </div>
+                <div class="main__about-me-contact">
+                    <img src="images/github.png" alt="github-icon">
+                    <a href="https://github.com/JordanLaurent09"><h3 class="main__about-me-contact-info">Я на Гитхабе</h3></a>
+                </div>
+                <div class="main__about-me-contact">
+                    <img src="images/vk.png" alt="vk-icon">
+                    <a href="https://vk.com/id15723742"><h3 class="main__about-me-contact-info">Я Вконтакте</h3></a>
+                </div>
+                <div class="main__about-me-contact">
+                    <img src="images/telegram.png" alt="telegram-icon">
+                    <a href="https:\\telegram.org"><h3 class="main__about-me-contact-info">Я в Телеграме</h3></a>
+                </div>
+            </div>
+        </section>
+        <section class="main__contact-me">
+            <div class="main__contact-me-header">
+                <h2>Не в восторге от соцсетей?</h2>
+                <h2>Оставьте свои данные в форме ниже</h2>
+            </div>
+            <form class="main__contact-me-form">
+                <fieldset class="main__form-container">
+                    <legend>Форма для заполнения</legend>
+
+                    <label for="client-name">Ваши ФИО:</label>
+                    <input type="text" id="client-name" name="client-name" required>
+
+                    <label for="phone-number">Укажите Ваш телефон:</label>
+                    <input type="tel" id="phone-number" name="phone-number" required>
+ 
+                    <label for="e-mail">Укажите Ваш e-mail:</label>
+                    <input type="email" id="e-mail" name="e-mail" required>
+
+                    <br>
+                    <button class="form__button" type="submit">Отправить</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
