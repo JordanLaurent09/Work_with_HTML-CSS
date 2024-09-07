@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-color: rgb(39, 138, 138);
+}
+
+.header{
+    width: 80%;
+
+    margin: 0 auto;
+    padding-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__title{
+
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: #FFFF00;
+}
+
+.header__navigation{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header__back{
+    color: #CDFF2D;
+}
+
+.header__link-back{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.main__skills{
+    width: 80%;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main__skills-stack{
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: orange;
+}
+
+.main__skills-list{
+
+    width: 70%;
+
+    padding-top: 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__skill{
+    width: 40%;
+    min-width: 250px;
+
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: black;
+    color: orange;
+
+    border-radius: 10px;
+}
+
+
+
+.main__skill-description{
+    width: 40%;
+
+    padding-bottom: 10px;
+}
+
+.main__skill-items{
+
+}
+
+.skill-title{
+    text-align: center;
+}
+
+.main__skills-button{
+
+    width: 150px;
+    height: 25px;
+
+    border-radius: 10px;
+
+    background-color: orange;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer{
+    background-color: #010D3F;
+    color: #8AFDFF;
+}
+
+.footer__info{
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
+
+
+/* Адаптация для размеров планшета */
+@media (max-width:1023px) {
+    .header__title{
+        font-size: 30px;
+    }
+
+    .header__navigation{
+        font-size: 15px;
+    }
+
+    .main__skills-stack{
+        font-size: 20px;
+    }
+}
+
+/* Адаптация для размеров мобильного устройства */
+@media (max-width: 767px) {
+    .header{
+        display: none;
+    }
+
+    .header__link-back{
+        font-size: 3vw;
+    }
+
+    .main__skills-stack{
+        font-size: 4vw;
+    }
+
+    .footer__info{
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .header__link-back{
+        display: none;
+    }
+}
