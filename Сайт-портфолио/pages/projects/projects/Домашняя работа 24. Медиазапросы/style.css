@@ -1,0 +1,1141 @@
+.banner{
+    height: 120vh;
+    
+
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+    background-image: url(landscape-lights-mountains-sunset-sea-bay-21389-wallhere.com.png);
+    background-size:cover; /* можно добавить вместо cover величину 100vw, тогда картинка будет целиком съеживаться при уменьшении разрешения экрана */
+    background-repeat: no-repeat;
+
+}
+
+.banner__diagonal-stripes{
+    position:absolute;
+    z-index: 2;
+}
+
+.banner__header{
+    height: 13%;
+    width: 90%;
+
+    margin: 0 auto;
+    margin-bottom: 250px;
+
+    position: relative;
+    
+
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+    border:1px solid gray;
+    border-top:0;
+    border-left:0;
+    border-right: 0;
+}
+
+.banner__logo-wrapper{
+    width: 20vw;
+}
+
+.banner__logo{
+    width: 180px;
+}
+
+.banner__navigation{
+
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: calc(11px + 4 *(100vw / 1280));
+
+    color: white;
+
+}
+
+
+
+.banner__navigation-button{
+    min-width: 50px;
+}
+
+.banner__tools{
+    width:20%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner__search{
+    width: 1.2vw;
+   
+}
+
+.banner__plane-wrapper{
+    position: relative;
+}
+
+.banner__plane{
+    width: 1.1vw;
+
+    
+}
+
+.banner__notification{
+    width: 1.2vw;
+
+    position: absolute;
+    right:-10px;
+    top:10px 
+    
+}
+
+.banner__phone{
+    width: 2.5vw;
+}
+
+.banner__contacts{
+    
+    line-height: 5px;
+
+    text-align: center;
+    
+    color: white;
+}
+
+.banner__call{
+    font-size: calc(6px + 4 * (100vw / 1280));
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner__number{
+    font-size: calc(10px + 4 * (100vw / 1280));
+    font-weight: bold;
+}
+
+.banner__attractive{
+
+    width: 100%;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner__inviter{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    line-height: 0px;
+
+    color: white;
+
+    font-size: 55px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+.banner__letters{
+
+    width: 110%;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.banner__promo{
+    color:#E7BB45;
+}
+
+.enter-button{
+    
+
+    height: 60px;
+    width: 200px;
+
+
+    border:0;
+    border-radius: 10px;
+
+    background-color:#74B472;
+    color:white;
+}
+
+
+.descriptor{
+    
+    /*height: 1100px;*/
+
+    background-image: url(pngegg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriptor__panels{
+
+    width: 80%; 
+
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.descriptor__description{
+    width: 40%;
+
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.descriptor__welcoming{
+
+    margin-bottom :0%;
+    padding:0;
+
+    font-size: calc(22px + 4 * (100vw / 1280)); 
+    font-weight: 500;
+
+    color: #E7BB45;
+
+}
+
+.descriptor__slogan{
+    width: 70%;
+
+    margin:0%;
+    padding:0;
+
+    font-size: calc(45px + 4 * (100vw / 1280)); 
+}
+
+
+.descriptor__explanation{
+    width:90%;
+    
+    font-size: calc(15px + 4 * (100vw / 1280));
+
+    color:grey;
+}
+
+
+.descriptor__disclaimer{
+    width:90%;
+
+    margin-bottom: 60px;
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.descriptor__read{
+    height:fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    line-height: 30px;
+}
+
+.descriptor__tourism{
+    padding-bottom:0;
+    margin-bottom:0;
+
+    font-size: calc(22px + 4 * (100vw / 1280));
+    font-weight: 500;
+
+    color: #7DC57A;
+}
+
+.descriptor__boarding-service{
+
+    width: 60%;
+
+    padding:0;
+    margin:0;
+
+    font-size: calc(15px + 4 * (100vw / 1280));
+
+    color:grey;
+}
+
+.descriptor__norway-picture{
+
+    width: 50%;
+
+    min-width: 150px;
+    padding-top: 40px;
+}
+
+.descriptor__norwegian-village{
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.discover-button{
+    height: 6vh;
+    width: 40%;
+
+    min-width: 125px;
+    min-height: 60px;
+
+    border:0;
+    border-radius: 10px;
+
+    background-color:#74B472;
+    color:white;
+}
+
+.descriptor__photos{
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptor__short-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.descriptor__tourist{
+    width: 14vw;
+
+    border-top-left-radius: 70px;
+
+    margin-bottom: 1.5vw;
+}
+
+.descriptor__map-writings{
+    position: relative;
+}
+
+
+.descriptor__map{
+    
+    width: 14vw;
+
+}
+
+.descriptor__number{
+    
+    position:absolute;
+    top: -6vw;
+    left: 3vw;
+
+    font-size: 6vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.descriptor__partners{
+    
+    position:absolute;
+    top: 6vw;
+    left: 0px;
+
+    color:green;
+
+    font-size: 1.0vw;
+}
+
+.descriptor__eiffel-tower{
+    width: 15vw;
+
+    border-top-right-radius: 70px;
+}
+
+
+
+.amenities{
+    
+    width:100%;
+    height: 700px;
+
+    margin-bottom: 70px;
+
+
+    background-color: #F8F7F0;
+    background-image: url(Услуги_фоновое-изображение.png);
+    background-repeat: round;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.amenities__header {
+    width: 60%;
+
+    padding-top: 40px;
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.amenities__title{
+    margin-bottom:0%;
+
+    font-size: calc(24px + 4 * (100vw / 1280)); /*24px;*/
+
+    color:rgb(14, 14, 66);
+}
+
+.amenities__sub-title {
+    
+    font-size: calc(48px + 4 * (100vw / 1280)); /*48px;*/
+}
+
+
+
+.amenities__items {
+
+    width: 70%;
+
+    margin: 0 auto;
+    padding-bottom: 30px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.amenities__item {
+
+    width:25%;
+    min-width: 215px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.amenities__image-wrapper{
+
+    width: 100%;
+}
+
+.amenities__image{
+    
+    width: 100%;
+}
+
+.amenities__text{
+
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 20px;
+    
+    background-color:#FFFFFF;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.amenities__tezis{
+    margin-bottom: 0;
+    
+    font-size: 22px;
+}
+
+.amenities__description{
+    margin-top: 0;
+
+    font-size: 16px;
+
+    color: grey;
+}
+
+
+.contact-information__info{
+    
+    width: 80%;
+
+    margin: 0 auto;
+    margin-bottom: 60px;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+}
+
+ .contact-information__item{
+    width:40%;
+
+    display:flex;
+    flex-direction:column;
+    
+}
+
+.contact-information__image-wrapper{
+    width: 30vw;
+    position: relative;
+}
+
+.contact-information__image{
+    width: 30vw;
+
+    border-radius: 20px;
+
+}
+
+.contact-information__rectangle{
+    width: 18vw;
+    height: 18%;
+
+    position: absolute;
+
+    left: 6.4vw;
+    top: 28.25vw;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    background-color: #2C3257;
+}
+
+
+
+
+.contact-information__slogan{
+    
+    position: absolute;
+
+    left: 8.5vw;
+    top: 28.5vw;
+
+    font-size: 1.4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: white;
+}
+
+.contact-information__phone-number{
+
+    position: absolute;
+
+    left: 11vw;
+    top: 30vw;
+
+    font-size: 1.6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: white;
+} 
+
+.contact-information__header{
+    
+    width: 100%;
+
+    
+    display: flex;
+    flex-direction: column;
+
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.contact-information__contacts-panel{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+}
+
+.contact-information__contact-panel-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+
+    
+
+    background-color: #F8F7F0;
+
+    border-radius: 10px;
+}
+
+.contact-information__text-line{
+    padding-left:40px;
+}
+
+.contact-information__social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-information__icon{
+    width: 6vw;
+
+    background-color: #2C3257;
+    border-radius: 10px;
+}
+
+
+
+.contact-information__description{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+    color: grey;
+} 
+
+
+.specialists-container{
+    width:100%;
+
+   
+    background-color: #F8F7F0;
+    
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.specialists-container__header{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specialists-container__persons{
+    
+    padding-bottom: 100px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.specialists-container__employee{
+    width: 15%;
+
+    position: relative;
+    
+}
+
+.specialists-container__picture{
+    width: 100%;
+    height: 90%;
+
+    border-radius: 10px;
+
+    box-shadow: 6px 6px 2px rgb(185, 183, 183);
+}
+
+.specialists-container__occupation-blank{
+    width: 13vw;
+    height: 35%;
+
+    top: 16vw;
+    left: 4vw;
+
+    position: absolute;
+
+    
+}
+
+
+.specialists-container__title{
+    width: 80%;
+
+    position: absolute;
+
+    top: 17vw;
+    left: 7vw;
+
+    font-size: 1.1vw;
+}
+
+.specialists-container__position{
+
+    position: absolute;
+
+    top: 18.5vw;
+    left: 6vw;
+
+    font-size: 1vw;
+
+    color: grey;
+
+}
+
+.specialists-container__info{
+    margin-bottom: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    line-height: 0px;
+
+}
+
+
+
+.specialists-container__occupation{
+    color: grey;
+}
+
+
+.navigation-menu{
+    width:100%;
+
+    background-color: #24231D;
+}
+
+.navigation-menu__sections{
+
+    width: 60%;
+
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-menu__info-panels{
+
+    
+
+    display:flex;
+    justify-content: space-evenly;
+
+    
+
+
+}
+
+.navigation-menu__info-panel{
+    
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.navigation-menu__info-item{
+    width:50%;
+
+    padding-top:100px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-menu__logo-wrapper{
+    width: 20%;
+}
+
+.navigation-menu__logo{
+    width:170px;
+}
+
+.navigation-menu__slogan{
+    width:80%;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+    color: grey;
+}
+
+.navigation-menu__social-icons{
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.navigation-menu__icon-wrapper{
+
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #2C3257;
+    border-radius: 10px;
+}
+
+.navigation-menu__icon{
+    width: 24px;
+
+}
+
+.navigation-menu__navigation{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    width:45%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-menu__header{
+    
+    color:white;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.navigation-menu__navigation-point{
+    display: flex;
+    justify-content: left;
+}
+
+.navigation-menu__arrow-wrapper{
+    
+    padding-top:5px;
+    width:10%;
+    
+}
+
+.navigation-menu__arrow{
+    width:16px;
+}
+
+.navigation-menu__paragraph{
+    margin-top:0px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+    color: grey;
+}
+
+
+.navigation-menu__news{
+    width:50%;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-menu__news-item{
+
+    margin-bottom: 0;
+
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: white;
+}
+
+.navigation-menu__news-date{
+
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    color: orange;
+}
+
+.navigation-menu__contacts{
+    width:40%;
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    margin:0 auto;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.navigation-menu__contact-item{
+    
+    display: flex;
+    
+
+    text-align: center;
+}
+
+.navigation-menu__yellow-item{
+    width:15px;
+    height: 15px;
+
+    padding-top: 15px;
+}
+
+.navigation-menu__contact-description{
+    padding-left: 10px;
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: left;
+
+    color:gray;
+}
+
+.navigation-menu__email-sender{
+
+    width:300px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.navigation-menu__sender-container{
+    width: 13vw;
+
+    background-color:white;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.navigation-menu__sender-text{
+    
+
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+
+    
+    color: gray;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8vw;
+
+    
+}
+
+
+.navigation-menu__sender-symbol{
+    width: 3vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    background-color:#2C3257;
+}
+
+.navigation-menu__telegram{
+
+    width:16px;
+    height: 16px;
+    
+}
+
+.footer{
+
+    padding: 0%;
+
+    width: 100%;
+    
+
+    background-color: #1F1E17;
+
+    
+}
+
+.footer__info{
+    width: 25%;
+
+    margin: 0 auto;
+    padding-top:25px;
+    padding-bottom: 25px;
+
+    color:gray;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+@media (max-width: 767px){
+
+    .banner__navigation{
+
+        display: none;
+    }
+
+    .banner__tools{
+        
+        display: none;
+    }
+
+    .banner__inviter{
+
+        font-size: 30px;
+    }
+
+    .enter-button{
+        width: 100px;
+        height: 30px;
+    }
+
+    .descriptor__slogan {
+        font-size: 25px;
+    }
+
+    .contact-information__info{
+
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .contact-information__item{
+
+        width: 60%;
+        align-items: center;
+    }
+
+    .specialists-container__persons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .specialists-container__employee{
+        min-width: 300px;   
+    }
+
+    .specialists-container__occupation-blank, .specialists-container__title, .specialists-container__position{
+        display: none;
+    }
+
+    .navigation-menu__info-item{
+        display: none;
+    }
+
+    .navigation-menu__navigation-point{
+        display: none;
+    }
+
+    .navigation-menu__news{
+        display: none;
+    }
+
+    .navigation-menu__contacts{
+        display: none;
+    }
+}
+
+
+@media (max-width: 1023px) {
+
+    .descriptor__disclaimer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .descriptor__panels{
+
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .amenities {
+        height: fit-content;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .amenities__sub-title {
+        font-size: 36px;
+    }
+
+    .amenities__title {
+        font-size: 18px;
+    }
+
+    .amenities__items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navigation-menu__sections{
+
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .specialists-container__info{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+}
+
